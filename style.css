@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+/*header section start here*/
+header{
+   
+    text-align: center;
+    height: 600px;
+    background: linear-gradient(45deg,rgba(27, 7, 31, 0.397),rgba(30, 7, 49, 0.432)),url(img/Banner\ Image.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:25px 70px 25px 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 700;
+   
+}
+
+/*header content style here*/
+.header-content{
+    color:white;
+    text-align: center;
+    padding: 20px; 
+   
+
+}
+.header-content h4{
+    font-size:32px;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+}
+.header-content h1{
+    font-size: 72px;
+    font-family: 'Merriweather', serif;
+}
+
+
+/* main section style start here */
+
+.main-contaner{
+    text-align: center;
+    padding:20px;
+    font-family: 'Inter', sans-serif;
+
+}
+.main-contaner h1{
+    color:#FF0000;
+    padding:10px;
+    font-size:70px;
+  
+}
+.main-contaner p{
+    color: #FF0000;
+    font-size:24px;
+    padding:10px;
+}
+.main-contaner{
+    color:black;
+    font-size: 40px;
+    padding:10px;
+}
+.main-contaner img{
+    padding:20px 0px 20px 0px;
+}
+.section2-main-content{
+    height: 600px;
+    background: linear-gradient(45deg,rgba(4, 0, 5, 0.815),rgba(30, 7, 49, 0.432)),url(img/Vectorrr.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:25px 70px 25px 70px;
+    height: 100vh;
+    justify-content:start;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    background-position: center;
+    
+}
+.section-all{
+    display: flex;
+    padding:80px;
+    align-items: center;
+}
+.section2-content h2{
+    color:wheat;
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    padding:10px;
+}
+.section2-content p{
+    color:#ffff;
+    font-size:18px;
+    width:70%;
+    padding:10px;
+}
+.buton{
+    padding:10px;
+    margin-left:10px;
+    border: none;
+    background:none;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+}
+.section3-main-content{
+    
+  
+    height: 60vh;
+    margin:25px 70px 25px 70px;
+    text-align: center;
+    align-items: center;
+    
+}
+
