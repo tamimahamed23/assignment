@@ -120,13 +120,43 @@ header{
     font-size:20px;
     cursor:pointer;
 }
-.section3-main-content{
-    
-  
-    height: 60vh;
-    margin:25px 70px 25px 70px;
-    text-align: center;
+
+
+.section3{
+    display: flex;
     align-items: center;
-    
+    justify-content: center;
+    height: 60vh;
+    background:linear-gradient(rgba(255, 0, 0, 0.082),white);
+    margin:50px 70px 50px 70px;
+    border-radius: 10px;
+
 }
 
+.section3-main-content > h3 {
+    font-size:32px;
+    position:relative;
+    padding:15px;
+}
+
+
+.section3-main-content > h3 > span{
+    color:red;
+    font-size:30px;
+  
+    
+}
+.btn{
+    margin-top:25px;
+}
+.btn1{
+    width: 150px;
+    padding:15px;
+    background:red;
+    border:none;
+    margin-left:35%;
+    border-radius: 5px;;
+    color:wheat;
+    
+    
+}
